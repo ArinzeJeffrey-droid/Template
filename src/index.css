@@ -6,6 +6,7 @@
 }
 
 
+
 .main-content {
   border: 1px solid;
   width: 480px;
@@ -65,4 +66,11 @@
   color: #FB5267;
   align-items: center;
   text-decoration: none !important;
+}
+
+
+@media screen and (max-width:480px) {
+  .main-content {
+    border: none;
+  }
 }

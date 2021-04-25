@@ -14,10 +14,10 @@ const Navbar = () => {
             </div>
             <div className="nav-links">
                 <div className="links-inner text-center">
-                    <Link to="#" className="mr-5"> 
+                    <Link to="/account" className="mr-5"> 
                         <span className="fas fa-user-circle"></span>
                     </Link>
-                    <Link to="#" className="mr-2"> 
+                    <Link to="/notification" className="mr-2"> 
                         <span className="fas fa-bell"></span>
                     </Link>
                 </div>

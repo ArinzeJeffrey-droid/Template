@@ -5,6 +5,8 @@ import EarnPage from './EarnPage'
 import WalletPage from "./WalletPage"
 import HomePage from "./HomePage"
 import { Switch, Route, BrowserRouter, Link } from "react-router-dom"
+import AccountPage from "./AccountPage"
+import Notification from "./Notification"
 
 
 
@@ -20,6 +22,8 @@ const ContainerPage = () => {
                         <Route path="/activity" component={ActivityPage}/>
                         <Route path="/earn" component={EarnPage}/>
                         <Route path="/wallet" component={WalletPage}/>
+                        <Route path="/account" component={AccountPage}/>
+                        <Route path="/notification" component={Notification}/>
                     </Switch>
             </div>
             <footer className="footer">
